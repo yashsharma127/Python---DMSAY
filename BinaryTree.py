@@ -4,17 +4,6 @@ class TreeNode:
         self.left = None
         self.right = None
 
-# node0 = TreeNode(3)
-# node1 = TreeNode(4)
-# node2 = TreeNode(5)
-
-# node0.left = node1
-# node0.right = node2
-
-# tree = node0
-
-# print(tree.right.key)
-
 tree_tuple = ((1,3,None),2,((None,3,4),5,(6,7,8)))
 
 def parse_tuple(data):
@@ -24,7 +13,7 @@ def parse_tuple(data):
         node.left = parse_tuple(data[0])
         node.right = parse_tuple(data[2])
     elif data is None:
-        node = None
+        node = None 
     else:
         node =TreeNode(data)
     return node
@@ -41,5 +30,16 @@ def traverse_in_order(node):
     return(traverse_in_order(node.left) +
            [node.key] + traverse_in_order(node.right))
 
-result = traverse_in_order(tree2)
+
+def preorderTraversal(node):
+    if node is None:
+        return []
+    return ([node.key] + preorderTraversal(node.left) + preorderTraversal(node.right))
+    
+def postorderTraversal(node):
+    if node is None:
+        return []
+    return (postorderTraversal(node.left) + postorderTraversal(node.right) + [node.key])
+
+result = postorderTraversal(tree2)
 print(result)
