@@ -8,6 +8,8 @@ https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 https://leetcode.com/problems/median-of-two-sorted-arrays/
 * https://leetcode.com/problems/binary-tree-inorder-traversal/
 * https://leetcode.com/problems/binary-tree-preorder-traversal/
+* https://leetcode.com/problems/binary-tree-postorder-traversal/
+* https://leetcode.com/problems/maximum-depth-of-binary-tree/
 
 ## TO BE SOLVED 
 
@@ -18,11 +20,9 @@ https://www.spoj.com/problems/AGGRCOW/
 
 **Exercise:** Implement functions for preorder and postorder traversal of a binary tree.
 
-* https://leetcode.com/problems/binary-tree-postorder-traversal/
 
 **Exercise:** Try solving these problems relating to path lengths in a binary tree:
 
-* https://leetcode.com/problems/maximum-depth-of-binary-tree/
 * https://leetcode.com/problems/minimum-depth-of-binary-tree/
 * https://leetcode.com/problems/diameter-of-binary-tree/
 
