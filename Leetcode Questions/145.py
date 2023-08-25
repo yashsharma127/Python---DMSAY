@@ -12,6 +12,6 @@ class Solution(object):
 
 root = [1,None,2,3]
 solution = Solution()
-result = solution.preorderTraversal(root)
+result = solution.postorderTraversal(root)
 
 print(result)
