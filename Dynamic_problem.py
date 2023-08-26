@@ -1,3 +1,4 @@
+## pure recursive approach
 class Solution(object):
     def longestCommonSubsequence(self, text1, text2, indx1=0, indx2=0):
         if indx1 == len(text1) or indx2 == len(text2):
@@ -9,7 +10,7 @@ class Solution(object):
             option2 = self.longestCommonSubsequence(text1, text2, indx1, indx2+1)
             return max(option1, option2)
 
-
+## memoized solution 
 class Solution(object):
     def longestCommonSubsequence(self, text1, text2):
         memo ={}
@@ -26,6 +27,8 @@ class Solution(object):
             return memo[key]
         return recurse(0,0)
     
+    
+## dynamic programming solutions 
 def lcs_dp(seq1, seq2):
     n1, n2 = len(seq1), len(seq2)
     table = [[0 for x in range(n2+1)] for x in range(n1+1)]
