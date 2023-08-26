@@ -18,31 +18,27 @@ https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317
 https://www.interviewbit.com/problems/allocate-books/
 https://www.spoj.com/problems/AGGRCOW/
 
-**Exercise:** Implement functions for preorder and postorder traversal of a binary tree.
-
-
 **Exercise:** Try solving these problems relating to path lengths in a binary tree:
-
 * https://leetcode.com/problems/minimum-depth-of-binary-tree/
 * https://leetcode.com/problems/diameter-of-binary-tree/
 
 Also try this related problem on *complete* binary trees: 
-
 https://leetcode.com/problems/check-completeness-of-a-binary-tree/
-
 https://leetcode.com/tag/tree/
 
 
 
-
-
-
-
-
-Arrays
-Linked Lists
+## Done
 Trees
 Balanced Trees
+Search
+
+
+## To be done
+Dynamic Programming
+Recursion
+Arrays
+Linked Lists
 Stacks
 Queues
 Heap
@@ -51,11 +47,8 @@ Trie
 Advanced
 Strings
 Sorting
-Search
 Graph Theory
 Greedy
-Dynamic Programming
-Recursion
 
 
 Constructive Algorithms
